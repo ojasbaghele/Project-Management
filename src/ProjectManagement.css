@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+.sitePage{
+
+    height: 100vh;
+    display: flex;
+}
+.Navbar{
+    background-color: white;
+    height:100uh;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.navBtns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:170px;
+    justify-content: space-evenly;
+    position: absolute;
+    top:38%;
+}
+#dashicon{
+    color: rgba(82, 82, 82, 0.677);
+}
+#Logout-icon{
+    position: absolute;
+    bottom: 30px;
+    left:15px;
+}
+.iconBtn{
+    cursor: pointer;
+    padding:5px;
+}
+.iconBtn:hover{
+    box-shadow: 2px 2px 2px 2px #939393ba;
+    
+}
+#HeaderBG{
+    width: 100%;
+    z-index: -1;
+}
+.DivContent{
+    width: 96%;   
+}
